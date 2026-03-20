@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '04/**'
 
 jobs:
   deploy:
