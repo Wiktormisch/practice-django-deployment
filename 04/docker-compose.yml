@@ -3,6 +3,6 @@ services:
     build: .
     command: gunicorn blog.wsgi:application --bind 0.0.0.0:8000
     ports:
-      - "8000:8000"
+      - "20165:8000"
     env_file:
       - .env
