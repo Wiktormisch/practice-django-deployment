@@ -25,6 +25,7 @@ jobs:
           script: |
             cd ~/practice-django-deployment
             git pull
+            cd 04
             docker compose up -d --build
             docker compose exec -T web python manage.py migrate
             docker compose exec -T web python manage.py collectstatic --noinput
