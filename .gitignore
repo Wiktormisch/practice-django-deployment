@@ -64,3 +64,7 @@ certs/
 # Logs
 *.log
 logs/
+
+# Backup
+
+backups/
